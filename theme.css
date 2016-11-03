@@ -30,6 +30,52 @@
 				#EFF1F4 = #313439
 */
 
+.githubchangelog {
+	font-size: 14px;
+	color: #fff;
+	font-weight: 600;
+	color: #fff!important;
+	background: #7289DA;
+	padding: 8px 0;
+	border-radius: 3px;
+	transition: .2s ease;
+	position: absolute;
+	bottom: -1px;
+	width: 100px;
+	text-align: center;
+	left: 0px;
+}
+
+.githubchangelog:hover {
+	background: #697ec4;
+}
+
+/*
+.bda-slist li:nth-child(odd) {
+
+}
+*/
+
+.bda-slist li {
+	background: rgba(0,0,0,.1)!important;
+	border-radius: 5px;
+	border: 1px solid rgba(0,0,0,.1)!important;
+}
+
+.bda-slist .bda-name {
+	color: rgba(255,255,255,.8);
+}
+
+.bda-slist .bda-description {
+	color: rgba(255,255,255,.7);
+	border-top: 1px solid rgba(0,0,0,.1);
+	background: #313338!important;
+}
+
+.bda-slist .checkbox:before {
+	color: rgba(255,255,255,.8);
+}
+
 h1 {
 	color: rgba(255,255,255,.8);
 }
