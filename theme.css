@@ -124,6 +124,10 @@ h1 {
 	background-color: #2E3136!important;
 }
 
+.context-menu .context-menu .scroller {
+	background: #282b30!important;
+}
+
 .chat>.title-wrap {
 	border-bottom: 1px solid #303337;
 	-webkit-box-shadow: 0 1px 0 rgba(0,0,0,.06);
@@ -1306,6 +1310,10 @@ background-size: 178.5px 78px;
 .context-menu .item:hover {
 	background: #25282d;
 	color: #fff;
+}
+
+.theme-dark.context-menu .context-menu {
+	background: #282b30!important;
 }
 
 /*
