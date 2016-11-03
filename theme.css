@@ -128,6 +128,11 @@ h1 {
 	background: #282b30!important;
 }
 
+.context-menu {
+	background: #282b30!important;
+	background-color: #282b30!important;
+}
+
 .chat>.title-wrap {
 	border-bottom: 1px solid #303337;
 	-webkit-box-shadow: 0 1px 0 rgba(0,0,0,.06);
