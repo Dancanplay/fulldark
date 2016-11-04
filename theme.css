@@ -1528,7 +1528,7 @@ background-size: 178.5px 78px;
 	color: rgba(255,255,255,.7);
 }
 
-.guild-settings-modal .emoji-row .btn+.btn, .guild-settings-modal .member-buttons .btn+.btn {
+.guild-settings-modal .emoji-row .btn+.btn, .guild-settings-modal .member-buttons .btn+.btn, .guild-settings-modal .emoji-row .btn.btn-danger, .guild-settings-modal .member-buttons .btn.btn-danger {
 	border: 1px solid rgba(240, 71, 71,.3);
 }
 
