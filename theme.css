@@ -1643,3 +1643,35 @@ background-size: 178.5px 78px;
 .invite-modal .invite-cancel {
 	color: rgba(255,255,255,.5)
 }
+
+/*
+	- Reactions -
+*/
+
+.message-reactions-modal {
+	background: #36393E;
+}
+
+.message-reactions-modal .message-reactions-list .scroller-wrap {
+	background: #36393E;
+}
+
+.message-reactions-modal .message-reactions-list-inner {
+	background: #36393E;
+}
+
+.message-reactions-modal .message-reactions-list-inner .reaction.selected {
+	background: #313338;
+}
+
+.message-reactions-modal .message-reactions-list-inner .reaction .count {
+	color: rgba(255,255,255,.7);
+}
+
+.message-reactions-modal .message-reactions-reactors .reactor {
+	box-shadow: inset 0 -1px 0 0 #313338;
+}
+
+.message-reactions-modal .message-reactions-reactors .reactor .name {
+	color: rgba(255,255,255,.8);
+}
