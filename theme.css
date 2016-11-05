@@ -1675,3 +1675,25 @@ background-size: 178.5px 78px;
 .message-reactions-modal .message-reactions-reactors .reactor .name {
 	color: rgba(255,255,255,.8);
 }
+
+
+/*
+	- Dev badge -
+	Beard design has the best ideas.
+*/
+
+.avatar-small[style='background-image: url("https://cdn.discordapp.com/avatars/67319565150851072/37c120aa80c8efc043cbd34ac9999b26.jpg");']+.member-inner .member-username .member-username-inner:after,
+.avatar-large[style='background-image: url("https://cdn.discordapp.com/avatars/67319565150851072/37c120aa80c8efc043cbd34ac9999b26.jpg");']+.comment .username-wrapper .user-name:after {
+	content: "dev";
+	background: #7289da;
+	margin-left: 6px;
+	cursor: text;
+	font-size: 10px;
+	color: #fff;
+	padding: 1px 2px;
+	border-radius: 3px;
+	text-decoration: none;
+	text-transform: uppercase;
+	line-height: 16px;
+	vertical-align: bottom;
+}
