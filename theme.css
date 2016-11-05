@@ -395,6 +395,10 @@ h1 {
 }
 */
 
+.tab-bar.SIDE {
+	margin-right: 0;
+}
+
 .avatar-uploader .avatar-uploader-inner {
 	border: 5px solid #7289DA;
 }
