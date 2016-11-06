@@ -1,3 +1,5 @@
+[***<- Go back***](https://github.com/fluffingtons/fulldark)
+
 # Full Dark for [Discord](http://discordapp.com)
 Making Discord properly dark since 2016.
 
