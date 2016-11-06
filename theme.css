@@ -30,6 +30,41 @@
 				#EFF1F4 = #313439
 */
 
+.versionbutton:after {
+	content: "v1.0.1";
+}
+
+.themeinfo:before {
+	content: "Completing the dark theme for Discord!";
+}
+
+.themeinfo:after {
+	content: "This theme auto-updates. To fetch the latest version, restart Discord.";
+}
+
+.themeinfo {
+	width: 100%;
+	margin-right: 5px;
+	display: block;
+	font-size: 12px;
+	height: 15px;
+	color: #7289DA;
+	font-weight: 700;
+	display: block;
+}
+
+.themeinfo:before {
+	color: rgba(255,255,255,.7);
+	font-weight: 500;
+	display: block;
+	font-size: 12.5px;
+}
+
+.themeinfo:after {
+	display: block;
+	margin-top: 3px;
+}
+
 .versionbutton {
 	display: block;
 	font-size: 14px;
@@ -38,15 +73,10 @@
 	background: #fff;
 	padding: 8px 5px;
 	border-radius: 3px;
-	transition: .2s ease;
 	position: absolute;
 	bottom: -1px;
 	text-align: center;
 	left: 0px;
-}
-
-.versionbutton:after {
-	content: "v1.0.1";
 }
 
 .githubchangelog {
@@ -57,7 +87,7 @@
 	background: #7289DA;
 	padding: 8px 0;
 	border-radius: 3px;
-	transition: .2s ease;
+	transition: background .2s ease;
 	position: absolute;
 	bottom: -1px;
 	width: 100px;
