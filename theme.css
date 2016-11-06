@@ -30,6 +30,25 @@
 				#EFF1F4 = #313439
 */
 
+.versionbutton {
+	display: block;
+	font-size: 14px;
+	font-weight: 600;
+	color: #7289da;
+	background: #fff;
+	padding: 8px 5px;
+	border-radius: 3px;
+	transition: .2s ease;
+	position: absolute;
+	bottom: -1px;
+	text-align: center;
+	left: 0px;
+}
+
+.versionbutton:after {
+	content: "v1.0.1";
+}
+
 .githubchangelog {
 	font-size: 14px;
 	color: #fff;
@@ -43,23 +62,18 @@
 	bottom: -1px;
 	width: 100px;
 	text-align: center;
-	left: 0px;
+	left: 46px;
 }
 
 .githubchangelog:hover {
 	background: #697ec4;
 }
 
-/*
-.bda-slist li:nth-child(odd) {
-
-}
-*/
-
 .bda-slist li {
 	background: rgba(0,0,0,.1)!important;
 	border-radius: 5px;
 	border: 1px solid rgba(0,0,0,.1)!important;
+	margin-bottom: 5px;
 }
 
 .bda-slist .bda-name {
@@ -70,6 +84,7 @@
 	color: rgba(255,255,255,.7);
 	border-top: 1px solid rgba(0,0,0,.1);
 	background: #313338!important;
+	font-size: 15px;
 }
 
 .bda-slist .checkbox:before {
@@ -388,15 +403,14 @@ h1 {
 	color: rgba(255,255,255,.7);
 }
 
-/*
-.tab-bar.SIDE .tab-bar-header {
-	-webkit-box-shadow: none;
-	box-shadow: none;
-}
-*/
-
 .tab-bar.SIDE {
-	margin-right: 0;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+
+.tab-bar.SIDE::-webkit-scrollbar {
+	width: 0px;
+	background: transparent;
 }
 
 .avatar-uploader .avatar-uploader-inner {
@@ -1683,21 +1697,226 @@ background-size: 178.5px 78px;
 
 /*
 	- Dev badge -
-	Beard design has the best ideas.
 */
 
-.avatar-small[style='background-image: url("https://cdn.discordapp.com/avatars/67319565150851072/37c120aa80c8efc043cbd34ac9999b26.jpg");']+.member-inner .member-username .member-username-inner:after,
-.avatar-large[style='background-image: url("https://cdn.discordapp.com/avatars/67319565150851072/37c120aa80c8efc043cbd34ac9999b26.jpg");']+.comment .username-wrapper .user-name:after {
+.avatar-small[style*='67319565150851072'] + .member-inner .member-username-inner::after,
+.guild-settings-modal-members .avatar-small[style*='67319565150851072'] + .member-inner .member-username::after,
+.avatar-popout[style*='67319565150851072']::after,
+.avatar-profile[style*='67319565150851072']::after,
+.message-group .avatar-large[style*='67319565150851072'] + .comment .user-name::after {
 	content: "dev";
-	background: #7289da;
-	margin-left: 6px;
-	cursor: text;
-	font-size: 10px;
-	color: #fff;
-	padding: 1px 2px;
-	border-radius: 3px;
+	background:#7289da;
+	font-size:10px;
+	font-weight:600;
+	color:#fff!important;
+	margin-left:6px;
+	padding:1px 2px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	text-transform:uppercase;
+	vertical-align:bottom;
+	line-height:16px;
+	-webkit-flex-shrink:0;
+	flex-shrink:0;
 	text-decoration: none;
-	text-transform: uppercase;
+}
+
+.guild-settings-modal-members .avatar-small[style*='67319565150851072'] + .member-inner .member-username::after {
+	line-height: 15px!important;
+}
+
+.avatar-profile[style*='67319565150851072']::after {
+	background: #fff!important;
+	color: #7289da!important;
+	margin-left: 12px!important;
+	content: "theme dev";
+}
+
+.avatar-popout[style*='67319565150851072']::after {
+	background: #fff!important;
+	color: #7289da!important;
+}
+
+/*
+	- Public servers -
+*/
+
+#pubs-container {
+	box-shadow: 0 0 0 5000px rgba(0,0,0,0.85)!important;
+	background: rgba(0,0,0,0.85);
+}
+
+.server-info button {
+	margin-top: 13px;
+	background-color: #738bd7;
+	color: #fff;
+	font-size: 16px;
 	line-height: 16px;
-	vertical-align: bottom;
+	padding: 10px 20px;
+	border-radius: 3px;
+	font-weight: 600;
+	transition: background-color .2s ease;
+	width: 67px;
+	height: 36px;
+}
+
+.server-icon {
+	border-radius: 50px;
+	margin-left: 15px;
+}
+
+.server-info span {
+	color: rgba(255,255,255,.8);
+	font-size: 14px;
+}
+
+.server-official {
+	text-shadow: none!important;
+	padding-left: 0px;
+}
+
+#pubs-header {
+	border-radius: 5px 5px 0 0;
+	padding: 15px 15px 15px 15px;
+	background: #2E3136;
+}
+
+.server-pinned {
+	border-bottom: 1px solid rgba(0,0,0,.1);
+	background-color: #2E3136!important;
+	border-right: 1px solid #2E3136!important;
+}
+
+#pubs-footer {
+	height: 27px;
+	border-radius: 0 0 5px 5px;
+	background: #2E3136;
+	border-top: 1px solid rgba(0,0,0,.1);
+}
+
+#pubs-header h2 {
+	font-weight: 700;
+	color: #FFF;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+#pubs-header button {
+	height: 34px;
+	background-color: rgba(0,0,0,.2);
+	border: 1px solid rgba(0,0,0,.1);
+	border-left: none;
+	color: #fff;
+	border-radius: 0 3px 3px 0;
+}
+
+.bd-dropdown button {
+	border-left: 1px solid rgba(0,0,0,.1)!important;
+	border-radius: 3px!important;
+}
+
+#pubs-header input {
+	color: #fff;
+	background-color: rgba(0,0,0,.2);
+	border: 1px solid rgba(0,0,0,.1);
+	border-right: none;
+	border-radius: 3px 0 0 3px;
+}
+
+#pubs-footer a {
+	opacity: .7;
+	color: #7289da;
+	text-transform: lowercase;
+}
+
+#pubs-footer div {
+	color: rgba(255,255,255,.5);
+}
+
+#server-bd-tag {
+	top: 0!important;
+	color: #7289da!important;
+	font-size: 14px!important;
+	font-weight: 700!important;
+}
+
+.server-row {
+	background: #36393E!important;
+}
+
+.bd-dropdown-list ul li {
+	background: #24272B!important;
+	color: rgba(255,255,255,.8);
+}
+
+.bd-dropdown.open .bd-dropdown-list ul {
+	height: 240px;
+}
+
+div#pubs-spinner-bottom {
+	background: #36393E!important;
+}
+
+/*
+	- Even Better Repo support -
+*/
+
+.ebr-plugin-item, .ebr-theme-item {
+	background-color: #313338!important;
+	border: 1px solid rgba(0,0,0,.1)!important;
+	border-radius: 5px!important;
+	padding: 5px!important;
+}
+
+.ebr-themes p.name, .ebr-plugins p.name {
+	font-weight: 700!important;
+	color: rgba(255,255,255,.8)!important;
+}
+
+.ebr-themes p.description, .ebr-plugins p.description {
+	color: rgba(255,255,255,.7)!important;
+	font-size: 15px!important;
+}
+
+.ebr-themes p.author, .ebr-plugins p.author {
+	color: rgba(255,255,255,.8)!important;
+}
+
+.install-button:hover {
+	background-color: #697ec4!important;
+}
+
+.install-button {
+	transition: background-color .2s ease!important;
+}
+
+.view-source-button {
+	background-color: #43b581!important;
+	transition: background-color .2s ease!important;
+}
+
+.view-source-button:hover {
+	background-color: #3ca374!important;
+}
+
+.update-button {
+	background-color: #f36c6c!important;
+	transition: background-color .2s ease!important;
+}
+
+.update-button:hover {
+	background-color: #f04747!important;
+}
+
+#theme-search, #plugin-search {
+	border: 1px solid rgba(0,0,0,.1)!important;
+	background: rgba(0,0,0,.2)!important;
+	border-radius: 5px!important;
+	color: #fff!important;
+}
+
+#ebr-themes-pane .ebr-top .themes-header, #ebr-plugins-pane .ebr-top .plugins-header {
+	font-size: 14px!important;
+	text-align: left!important;
+	margin-left: 2px!important;
 }
