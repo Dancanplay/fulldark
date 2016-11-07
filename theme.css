@@ -344,24 +344,19 @@ h1 {
 }
 
 .form .btn-default {
-	border-bottom: 1px solid transparent;
+	border-bottom: 2px solid transparent;
 	background-color: transparent;
 	color: rgba(255,255,255,.5);
 }
 
 .form .btn-default:hover {
-	border-bottom: 1px solid transparent;
-	color: #fff;
+	border-bottom: 2px solid rgba(255,255,255,.5);
 }
 
 #instant-invite-modal-advanced .form-actions .btn-default {
 	color: rgba(255,255,255,.5);
 	background-color: transparent;
 
-}
-
-#instant-invite-modal-advanced .form-actions .btn-default:hover {
-	color: #fff;
 }
 
 /*
@@ -1086,7 +1081,7 @@ background-size: 178.5px 78px;
 
 .create-guild-container .form-actions .btn-default:hover:before {
 	background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSI3IDIgMTggMTIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgNyAyIDE4IDEyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHN0eWxlIHR5cGU9InRleHQvY3NzIj4uc3Qwe2ZpbGw6I2ZmZjt9PC9zdHlsZT48cGF0aCBjbGFzcz0ic3QwIiBkPSJNMjUsN0gxMC44bDMuNi0zLjZMMTMsMkw3LDhsNiw2bDEuNC0xLjRMMTAuOCw5SDI1Vjd6Ii8+PC9zdmc+);
-	opacity: 1;
+	opacity: .5;
 }
 
 .create-guild-container p {
@@ -1102,7 +1097,7 @@ background-size: 178.5px 78px;
 }
 
 .create-guild-container .form-actions .btn-default:hover {
-	color: #fff;
+	color: rgba(255,255,255,.5);
 }
 
 .create-guild-container .join-server .link-container input {
@@ -1949,4 +1944,43 @@ div#pubs-spinner-bottom {
 	font-size: 14px!important;
 	text-align: left!important;
 	margin-left: 2px!important;
+}
+
+/*
+	- BetterDiscord tips -
+*/
+
+.tipsy {
+	background-color: #7289da!important;
+	color: #fff!important;
+	padding: 5px 10px!important;
+	font-weight: 600!important;
+	border-radius: 3px!important;
+	font-size: 12px!important;
+	position: absolute!important;
+	box-shadow: 0 2px 4px 1px rgba(0,0,0,.1);!important;
+	opacity: 1!important;
+	margin-left: 10px!important;
+}
+
+.tipsy:after {
+	content: ' ';
+	width: 0px;
+	height: 0px;
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	display: block;
+	border-style: solid;
+	border: 5px solid transparent;
+	border-top-color: #7289da;
+	margin-left: -4.5px;
+}
+
+.tipsy-inner {
+	background-color: #7289da!important;
+	color: #fff!important;
+	padding: 0px!important;
+	text-align: center!important;
+	overflow: hidden!important;
 }
