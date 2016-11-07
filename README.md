@@ -3,7 +3,7 @@ Making Discord properly dark since 2016.
 
 `v1.0.1`
 
-**[Screenshots](https://github.com/fluffingtons/fulldark/blob/resources/documents/screenshots.md)**
+**[Screenshots](https://github.com/fluffingtons/fulldark/wiki/Screenshots)**
 
 ## Changelog
 
