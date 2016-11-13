@@ -50,7 +50,7 @@
 
 @keyframes startup {
 	from {
-		transform: translate(0, -30%);
+		transform: translate(0, 75%);
 		visibility:hidden;
 		opacity:0;
 	}
@@ -67,7 +67,7 @@
 		opacity:1;
 	}
 	98% {
-		transform: translate(0, -30%);
+		transform: translate(0, 75%);
 		opacity:0;
 	}
 	to {
@@ -86,7 +86,7 @@
 	visibility:hidden;
 	white-space: pre;
 	padding: 10px 15px;
-	top: 65px;
+	bottom: 15px;
 	right: 15px;
 	position: absolute;
 }
