@@ -7,6 +7,10 @@ Making Discord properly dark since 2016.
 
 ## Changelog
 
+`v1.0.1` -> `v1.0.2`
+* Support for new user profile.
+* More elements properly dark.
+
 `v1.0.0` -> `v1.0.1`
 * Update to support reactions.
 * More elements properly dark.
