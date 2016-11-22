@@ -1209,9 +1209,13 @@ background-size: 178.5px 78px;
 }
 
 .member-roles .member-role {
-	background-color: rgba(0,0,0,.2);
+	background-color: rgba(0,0,0,.1);
 	border: 1px solid rgba(0,0,0,.1);
 } 
+
+.member-roles .member-role {
+	color: rgba(255,555,255,.6);
+}
 
 .member-roles .manipulate:hover {
 	border-color: rgba(0,0,0,.1);
@@ -1261,6 +1265,19 @@ background-size: 178.5px 78px;
 
 .popout.popout-invert.popout-top header:before, .popout.popout-invert.popout-top-right header:before {
 	border-top-color: ;
+}
+
+.user-popout .avatar-wrapper .avatar-popout {
+	border: 4px solid #3A3D42;
+	background-color: #282B30;
+}
+
+.user-popout .username-wrapper .activity {
+	color: rgba(245,245,245,.85);
+}
+
+.user-popout .username-wrapper.has-nickname .discriminator, .user-popout .username-wrapper.has-nickname .username {
+	color: rgba(245,245,245,.85);
 }
 
 /*
