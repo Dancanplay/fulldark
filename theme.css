@@ -1236,6 +1236,10 @@ background-size: 178.5px 78px;
 	color: #fff;
 }
 
+.quick-message.isBlocked {
+	background: #2B2E33;
+}
+
 .note textarea:focus {
 	background: transparent;
 }
