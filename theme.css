@@ -760,6 +760,10 @@ div.control-group .shortcut-recorder input[type=text] {
 	box-shadow: none;
 }
 
+.user-settings-modal-games .games-table .games-row .item-game .game-input:focus, .user-settings-modal-games .games-table .games-row .item-game .game-input:hover {
+	border: 1px solid #313338;
+}
+
 .user-settings-modal-games .games-table .games-row .item-game {
 	border-bottom: 1px solid #313338;
 }
@@ -1712,6 +1716,19 @@ background-size: 178.5px 78px;
 
 .guild-settings-modal .emoji-row .btn.btn-danger:hover, .guild-settings-modal .member-buttons .btn.btn-danger:hover {
 	background: rgba(240, 71, 71,.1);
+}
+
+.instant-invites .instant-invite-buttons .btn.btn-danger {
+	border: 1px solid rgba(240, 71, 71,.3);
+	background: transparent;
+}
+
+.instant-invites .instant-invite-buttons .btn.btn-danger:hover {
+	background: rgba(240, 71, 71,.1);
+}
+
+.guild-settings-modal .emoji-row .btn.btn-danger:active, .guild-settings-modal .member-buttons .btn.btn-danger:active {
+	background: #f04747!important;
 }
 
 /*
