@@ -31,7 +31,7 @@
 */
 
 .versionbutton:after {
-	content: "v1.0.2";
+	content: "v1.0.3";
 }
 
 .themeinfo:before {
@@ -43,14 +43,11 @@
 }
 
 .app:after {
-	content: "message";
-	display: none;
+	content: "Update 1.0.3:\A - Theme now properly disables.\A - Support for Keyboard Combos.\A - Various other changes/fixes.\A \A This update is manual, and not necessary.\A This popup will stop appearing in a few days."
 }
-
 
 @keyframes startup {
 	from {
-		transform: translate(0, 75%);
 		visibility:hidden;
 		opacity:0;
 	}
@@ -59,15 +56,12 @@
 		opacity:0;
 	}
 	15% {
-		transform: translate(0, 0);
 		opacity:1;
 	}
 	90% {
-		transform: translate(0, 0);
 		opacity:1;
 	}
 	98% {
-		transform: translate(0, 75%);
 		opacity:0;
 	}
 	to {
@@ -85,8 +79,8 @@
 	color: #fff;
 	visibility:hidden;
 	white-space: pre;
-	padding: 10px 15px;
-	bottom: 15px;
+	padding: 15px 15px;
+	top: 70px;
 	right: 15px;
 	position: absolute;
 }
@@ -2134,4 +2128,28 @@ div#pubs-spinner-bottom {
 	padding: 0px!important;
 	text-align: center!important;
 	overflow: hidden!important;
+}
+
+/*
+	- Keyboard shortcuts -
+*/
+
+.keyboard-shortcuts-modal {
+	background-color: #36393E;
+}
+
+.keyboard-shortcuts-modal .modal-title {
+	color: rgba(255,255,255,.8);
+}
+
+.keyboard-shortcuts-modal .modal-subtitle {
+	color: rgba(255,255,255,.7);
+}
+
+.keyboard-shortcuts-modal .keyboard-shortcut-list .keybind-group .keybind-description {
+	color: rgba(255,255,255,.8);
+}
+
+.keybind-shortcut span {
+	box-shadow: inset 0 -4px 0 rgba(0,0,0,.07);
 }
