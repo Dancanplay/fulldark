@@ -10,6 +10,8 @@ Making Discord properly dark since 2016.
 `v1.0.2` -> `v1.0.3`
 * Theme now properly disables.
 * Support for Keyboard Combos.
+* User popouts now feature a dark border, instead of blurple.
+* Avatars that do not load display dark background, instead of blurple.
 * Various other changes/fixes.
 
 `v1.0.1` -> `v1.0.2`
