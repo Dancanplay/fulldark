@@ -1340,7 +1340,10 @@ background-size: 178.5px 78px;
 
 #user-profile-modal .scroller {
 	background: #36393E;
-	overflow: hidden;
+}
+
+#user-profile-modal .scroller::-webkit-scrollbar-corner {
+	display: none;
 }
 
 #user-profile-modal .guilds .section .connected-accounts .connected-account {
