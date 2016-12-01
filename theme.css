@@ -1270,12 +1270,24 @@ background-size: 178.5px 78px;
 	background-color: #36393E;
 }
 
+#autocomplete-popout h3 {
+	color: rgba(255,255,255,.8);
+}
+
+#autocomplete-popout .section {
+	color: rgba(255,255,255,.8);
+}
+
+.popout header {
+	background-color: #282B30;
+}
+
 .popout.popout-bottom header:before, .popout.popout-bottom-right header:before {
-	border-bottom-color:;
+	border-bottom-color: #282B30;
 }
 
 .popout.popout-invert.popout-top header:before, .popout.popout-invert.popout-top-right header:before {
-	border-top-color: ;
+	border-top-color: #282B30;
 }
 
 .user-popout .avatar-wrapper .avatar-popout {
