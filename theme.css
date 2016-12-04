@@ -649,8 +649,10 @@ h1 {
 .has-value>.Select-control>.Select-value {
 	background-color: rgba(0,0,0,.2);
 	border: 1px solid rgba(0,0,0,.1);
-	border-radius: 3px;
-	line-height: inherit;
+}
+
+.guild-settings-modal-members .guild-settings-modal-members-header .form .Select .Select-value {
+	line-height: 1;
 }
 
 .user-settings-locale .select-item .primary {
@@ -850,6 +852,7 @@ div.control-group .shortcut-recorder input[type=text] {
 .search-bar.search-bar-light {
 	background-color: #2B2D31;
 	border: 1px solid #27292C;
+	border-radius: 3px;
 }
 
 .search-bar input::-webkit-input-placeholder {
