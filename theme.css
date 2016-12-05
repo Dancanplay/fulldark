@@ -43,7 +43,8 @@
 }
 
 .app:after {
-	content: "Update 1.0.3:\A - Theme now properly disables.\A - Support for Keyboard Combos.\A - Various other changes/fixes.\A \A This update is manual, and not necessary.\A This popup will stop appearing in a few days."
+	display: none;
+	content: " "
 }
 
 @keyframes startup {
