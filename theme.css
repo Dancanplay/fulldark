@@ -2215,3 +2215,34 @@ div#pubs-spinner-bottom {
 .keybind-shortcut span {
 	box-shadow: inset 0 -4px 0 rgba(0,0,0,.07);
 }
+
+/*
+	- Nitro -
+*/
+
+.premium-settings .payment-subhead {
+  color: rgba(255,255,255,.8);
+}
+
+.premium-settings .billing-history-list li:last-of-type, .premium-settings .payment-method .payment-info .card-info .card-description, .premium-settings .payment-method .payment-info .card-info .card-description strong {
+  color: rgba(255,255,255,.7);
+}
+
+.premium-settings .payment-method .payment-info .card-info .card-details {
+  color: rgba(255,255,255,.5);
+}
+
+.card-tools .btn-stroked {
+  color: #fff;
+  border: 1px solid hsla(0,0%,100%,.1);
+  border-radius: 3px;
+  background-color: transparent;
+  font-weight: 600;
+  font-size: 14px;
+}
+.card-tools .btn-stroked:hover {
+    border-color: hsla(0,0%,100%,.5);
+}
+.premium-settings .premium-header {
+  border-bottom: 1px solid #313338;
+}
