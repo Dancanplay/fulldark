@@ -1489,6 +1489,10 @@ background-size: 178.5px 78px;
 	font-weight: 550;
 }
 
+.markdown-modal {
+	color: rgba(255,255,255,.5);
+}
+
 /*
 	- Pop up -
 */
@@ -2181,6 +2185,10 @@ div#pubs-spinner-bottom {
 }
 .premium-settings .premium-header {
   border-bottom: 1px solid #313338;
+}
+
+.premium-settings .billing-history-list li.header-row {
+	color: rgba(255,255,255,.8);
 }
 
 /*
