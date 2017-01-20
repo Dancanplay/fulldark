@@ -2090,70 +2090,6 @@ div#pubs-spinner-bottom {
 }
 
 /*
-	- Even Better Repo support -
-*/
-
-.ebr-plugin-item, .ebr-theme-item {
-	background-color: #313338!important;
-	border: 1px solid rgba(0,0,0,.1)!important;
-	border-radius: 5px!important;
-	padding: 5px!important;
-}
-
-.ebr-themes p.name, .ebr-plugins p.name {
-	font-weight: 700!important;
-	color: rgba(255,255,255,.8)!important;
-}
-
-.ebr-themes p.description, .ebr-plugins p.description {
-	color: rgba(255,255,255,.7)!important;
-	font-size: 15px!important;
-}
-
-.ebr-themes p.author, .ebr-plugins p.author {
-	color: rgba(255,255,255,.8)!important;
-}
-
-.install-button:hover {
-	background-color: #697ec4!important;
-}
-
-.install-button {
-	transition: background-color .2s ease!important;
-}
-
-.view-source-button {
-	background-color: #43b581!important;
-	transition: background-color .2s ease!important;
-}
-
-.view-source-button:hover {
-	background-color: #3ca374!important;
-}
-
-.update-button {
-	background-color: #f36c6c!important;
-	transition: background-color .2s ease!important;
-}
-
-.update-button:hover {
-	background-color: #f04747!important;
-}
-
-#theme-search, #plugin-search {
-	border: 1px solid rgba(0,0,0,.1)!important;
-	background: rgba(0,0,0,.2)!important;
-	border-radius: 5px!important;
-	color: #fff!important;
-}
-
-#ebr-themes-pane .ebr-top .themes-header, #ebr-plugins-pane .ebr-top .plugins-header {
-	font-size: 14px!important;
-	text-align: left!important;
-	margin-left: 2px!important;
-}
-
-/*
 	- BetterDiscord tips -
 */
 
@@ -2245,4 +2181,193 @@ div#pubs-spinner-bottom {
 }
 .premium-settings .premium-header {
   border-bottom: 1px solid #313338;
+}
+
+/*
+	- Even Better Repo by DeNial -
+*/
+
+.ebr-plugin-item, .ebr-theme-item {
+	background-color: rgba(0,0,0,.1)!important;
+	border: 1px solid rgba(0,0,0,.1)!important;
+	border-radius: 3x!important;
+	padding: 5px!important;
+	margin-bottom: 8px!important;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, .16);
+}
+
+.ebr-themes p.name, .ebr-plugins p.name {
+	font-weight: 700!important;
+	color: rgba(255,255,255,.8)!important;
+}
+
+.ebr-themes p.description, .ebr-plugins p.description {
+	color: rgba(255,255,255,.7)!important;
+	font-size: 15px!important;
+}
+
+.ebr-themes p.author, .ebr-plugins p.author {
+	color: rgba(255,255,255,.8)!important;
+}
+
+.install-button:hover {
+	background-color: #697ec4!important;
+}
+
+.install-button {
+	transition: background-color .2s ease!important;
+}
+
+.view-source-button {
+	background-color: #43b581!important;
+	transition: background-color .2s ease!important;
+}
+
+.view-source-button:hover {
+	background-color: #3ca374!important;
+}
+
+.update-button {
+	background-color: #f36c6c!important;
+	transition: background-color .2s ease!important;
+}
+
+.update-button:hover {
+	background-color: #f04747!important;
+}
+
+#theme-search, #plugin-search {
+	border: 1px solid rgba(0,0,0,.1)!important;
+	background: rgba(0,0,0,.2)!important;
+	border-radius: 5px!important;
+	color: #fff!important;
+}
+
+#ebr-themes-pane .ebr-top .themes-header, #ebr-plugins-pane .ebr-top .plugins-header {
+	font-size: 14px!important;
+	text-align: left!important;
+	margin-left: 2px!important;
+}
+
+/*
+	- Renamer by Megamit/Mitchell -
+*/
+
+.messages .renamer-tag {
+	margin-right: 0px!important;
+	margin-left: 6px !important;
+}
+
+/*
+	- Replyer by Hammock & Natsulus -
+*/
+
+.replyer {
+	border-radius: 3px!important;
+	transition: .2s;
+	margin-left: 5px!important;
+	padding: 2px 4px!important;
+	background: #7289da!important;
+	animation: replyer .2s ease;
+}
+
+.replyer:hover {
+	background: #697ec4!important;
+}
+
+/*
+	- Quoter by Samogot & Hammock & Natsulus -
+*/
+
+.quoter {
+	border-radius: 3px!important;
+	transition: .2s;
+	margin-left: 5px!important;
+	padding: 2px 4px!important;
+	background: #7289da!important;
+	animation: replyer .2s ease;
+}
+
+.quoter:hover {
+	background: #697ec4!important;
+}
+
+/*
+	- Owner Tags by Noodlebox - 
+*/
+
+.bot-tag.kawaii-tag {
+	color: #fff!important;
+	background: #7289da!important;
+}
+
+/*
+	- Titlebar by BeardDesign -
+*/
+
+.titlebar {
+	background: transparent!important;
+}
+
+.win-buttons button {
+	background-size: 26px!important;
+}
+
+.titlebar:before {
+	opacity: .7!important;
+}
+
+.titlebar:after {
+	opacity: .7!important;
+}
+
+/*
+	- Clock Plugin by Jiiks -
+*/
+
+#clockPluginClock {
+	transition: all .2s!important;
+	background: rgba(0,0,0,.35)!important;
+	font-size: 13px!important;
+	position: absolute!important;
+	left: 4px!important;
+	bottom: 3px!important;
+	padding: 0 13px 0 13px!important;
+	max-width: 45px!important;
+	min-width: 48px!important;
+	border-radius: 3px!important;
+}
+
+#clockPluginClock:hover {
+	cursor: default!important;
+	background: rgba(114, 137, 218,.7)!important;
+}
+
+/*
+	- Copy Code by Finicalmist -
+*/
+
+.copybutton {
+	color: #839496!important;
+	border-radius: 3px!important;
+	font-size: 10px!important;
+	font-weight: 600!important;
+	transition: all 200ms!important;
+	text-transform: uppercase!important;
+}
+
+.copybutton:hover {
+	color: #7289da!important;
+	border-color: rgba(114, 137, 218,.2)!important;
+}
+
+/*
+	- Line Numbers by noodlebox -
+*/
+.hljs ol li {
+	border-left: 1px solid #282B30!important;
+}
+
+.hljs ol li::before {
+	color: rgba(255,255,255,.2)!important;
 }
