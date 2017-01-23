@@ -1933,7 +1933,7 @@ background-size: 178.5px 78px;
 
 /*
 	- Dev badge -
-*/
+
 
 .avatar-small[style*='67319565150851072'] + .member-inner .member-username-inner::after,
 .guild-settings-modal-members .avatar-small[style*='67319565150851072'] + .member-inner .member-username::after,
@@ -2164,7 +2164,7 @@ div#pubs-spinner-bottom {
   color: rgba(255,255,255,.8);
 }
 
-.premium-settings .billing-history-list li:last-of-type, .premium-settings .payment-method .payment-info .card-info .card-description, .premium-settings .payment-method .payment-info .card-info .card-description strong {
+.premium-settings .billing-history-list .completed {
   color: rgba(255,255,255,.7);
 }
 
