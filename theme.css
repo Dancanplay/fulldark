@@ -1623,7 +1623,6 @@ background-size: 178.5px 78px;
 .emoji-picker .dimmer.visible {
 	background-color: #36393E;
 	opacity: .6;
-	z-index: 2;
 }
 
 .emoji-picker .category {
