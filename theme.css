@@ -1036,7 +1036,6 @@ div.control-group .shortcut-recorder input[type=text] {
 	background-color: #2E3136;
 	border: 2px solid #282b30;
 	color: #839496;
-	padding: .5em;
 }
 
 .message-group .comment .markup pre code {
@@ -1448,20 +1447,17 @@ background-size: 178.5px 78px;
 	color: #555;
 	background-color: #fff;
 	border-bottom: 1px solid #f0f0f0;
-}
-
-.need-help-modal a {
-	color: #7289da;
-}
-
-.need-help-modal a:hover {
-	color: #A1B0E3;
+	box-shadow: 0 2px 1px #24272B;
 }
 
 .need-help-modal .footer {
 	border-top: 1px solid #313338;
 	background-color: #36393E;
 	color: rgba(255,255,255,.5);;
+}
+
+.need-help-modal .header {
+	background-color: #282B30;
 }
 
 /*
@@ -1471,6 +1467,10 @@ background-size: 178.5px 78px;
 .change-log {
 	background-color: #36393E;
 }
+
+/*
+	- Markdown Modal -
+*/
 
 .markdown-modal .markdown-modal-header {
 	border-bottom: 1px solid #313338;
@@ -1491,6 +1491,15 @@ background-size: 178.5px 78px;
 
 .markdown-modal {
 	color: rgba(255,255,255,.5);
+}
+
+.markdown-modal code.inline {
+	background: #2e3136;
+	color: rgba(255,255,255,.7);
+}
+
+.markdown-modal.selectable .scroller {
+	border-radius: 0 0 5px 5px;
 }
 
 /*
