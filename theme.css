@@ -2456,3 +2456,11 @@ div#pubs-spinner-bottom {
 .hljs ol li::before {
 	color: rgba(255,255,255,.2)!important;
 }
+
+/*
+	- Search -
+*/
+
+.search-results-wrap .scroller-wrap .scroller {
+	background: #2e3136;
+}
