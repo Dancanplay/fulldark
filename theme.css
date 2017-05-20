@@ -2465,6 +2465,13 @@ div#pubs-spinner-bottom {
 	background: #2e3136;
 }
 
+.search-popout .option:after {
+	background: none!important;
+}
+
+.theme-dark .search-popout {
+	background: #36393E;
+}
 /*
 	- Notifications options 
 */
