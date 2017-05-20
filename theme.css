@@ -2464,3 +2464,15 @@ div#pubs-spinner-bottom {
 .search-results-wrap .scroller-wrap .scroller {
 	background: #2e3136;
 }
+
+/*
+	- Notifications options 
+*/
+.settings-actions {
+	background-color: #2E3136;
+	border-top: 1px solid #1E2124;
+}
+
+.settings-inner {
+	background-color: #36393E;
+}
