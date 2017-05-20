@@ -2472,6 +2472,11 @@ div#pubs-spinner-bottom {
 .theme-dark .search-popout {
 	background: #36393E;
 }
+
+.search-popout .option.selected
+{
+	background: #313338;
+}
 /*
 	- Notifications options 
 */
