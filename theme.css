@@ -2469,10 +2469,10 @@ div#pubs-spinner-bottom {
 	- Notifications options 
 */
 .settings-actions {
-	background-color: #2E3136;
-	border-top: 1px solid #1E2124;
+	background-color: #2E3136!important;
+	border-top: 1px solid #1E2124!important;
 }
 
 .settings-inner {
-	background-color: #36393E;
+	background-color: #36393E!important;
 }
